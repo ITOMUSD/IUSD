@@ -1,0 +1,31 @@
+{
+    "name": "iusd",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "compile": "npx hardhat compile",
+        "test": "npx hardhat test",
+        "node": "npx hardhat node",
+        "chain": "npx hardhat node",
+        "deploy": "npx hardhat run scripts/deploy.js --network dev",
+        "coverage": "npx hardhat coverage --network dev"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "dotenv": "^16.0.0",
+        "hardhat": "^2.8.4"
+    },
+    "devDependencies": {
+        "@nomiclabs/hardhat-ethers": "^2.0.5",
+        "@nomiclabs/hardhat-etherscan": "^3.1.0",
+        "@nomiclabs/hardhat-waffle": "^2.0.2",
+        "@openzeppelin/contracts-upgradeable": "4.5.2",
+        "@openzeppelin/hardhat-upgrades": "^1.14.0",
+        "chai": "^4.3.6",
+        "ethereum-waffle": "^3.4.0",
+        "ethers": "^5.5.4",
+        "hardhat-abi-exporter": "^2.4.0"
+    }
+}
